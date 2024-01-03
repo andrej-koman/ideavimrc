@@ -37,10 +37,11 @@ set idearefactormode=keep
 map <leader>t <Action>(ActivateTerminalToolWindow)
 map <leader>c <Action>(HideActiveWindow)
 map <leader>e <Action>(ActivateProjectToolWindow)
+map <leader>l <Action>(NextTab)
+map <leader>h <Action>(PreviousTab)
 
 map <leader>f <Action>(ReformatCode)
 map <leader>r <Action>(RenameElement)
 map <leader>z <Action>(ToggleDistractionFreeMode)
 
 map <leader>a <Action>(Annotate)
-map <leader>h <Action>(Vcs.ShowTabbedFileHistory)
