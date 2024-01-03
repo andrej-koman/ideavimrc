@@ -48,3 +48,5 @@ map <leader>r <Action>(RenameElement)
 map <leader>z <Action>(ToggleDistractionFreeMode)
 
 map <leader>a <Action>(Annotate)
+
+testiranje
