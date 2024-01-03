@@ -32,6 +32,8 @@ set nu
 set ideajoin
 set ideastatusicon=gray
 set idearefactormode=keep
+set number
+set relativenumber
 
 """ Mappings --------------------------------
 map <leader>t <Action>(ActivateTerminalToolWindow)
@@ -39,6 +41,7 @@ map <leader>c <Action>(HideActiveWindow)
 map <leader>e <Action>(ActivateProjectToolWindow)
 map <leader>l <Action>(NextTab)
 map <leader>h <Action>(PreviousTab)
+map <leader>w <Action>(CloseContent)
 
 map <leader>f <Action>(ReformatCode)
 map <leader>r <Action>(RenameElement)
