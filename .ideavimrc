@@ -14,8 +14,7 @@ map Q gq
 """ Plugins  --------------------------------
 set surround
 set multiple-cursors
-set commentary
-set argtextobj
+set commentarset argtextobj
 set easymotion
 set textobj-entire
 set ReplaceWithRegister
@@ -38,15 +37,16 @@ set relativenumber
 """ Mappings --------------------------------
 map <leader>t <Action>(ActivateTerminalToolWindow)
 map <leader>c <Action>(HideActiveWindow)
-map <leader>e <Action>(ActivateProjectToolWindow)
+map <leader>e <Action>(ShowNavBar)
 map <leader>l <Action>(NextTab)
 map <leader>h <Action>(PreviousTab)
 map <leader>w <Action>(CloseContent)
+map <leader>q <Action>(NewElement)
+map <leader>d <Action>($Delete)
+map <leader><Up> <Action>(SplitVertically)
 
 map <leader>f <Action>(ReformatCode)
 map <leader>r <Action>(RenameElement)
 map <leader>z <Action>(ToggleDistractionFreeMode)
 
 map <leader>a <Action>(Annotate)
-
-testiranje
