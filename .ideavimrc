@@ -14,7 +14,8 @@ map Q gq
 """ Plugins  --------------------------------
 set surround
 set multiple-cursors
-set commentarset argtextobj
+set commentar
+set argtextobj
 set easymotion
 set textobj-entire
 set ReplaceWithRegister
